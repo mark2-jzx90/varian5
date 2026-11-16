@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Левая страница книги -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M29,38 C36,36 46,37 53,42 L53,72 C46,67 37,66 29,68 Z" />
+    <!-- Правая страница книги -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M79,38 C72,36 62,37 55,42 L55,72 C62,67 71,66 79,68 Z" />
+    <!-- Корешок -->
+    <path
+        android:pathData="M54,43 L54,71"
+        android:strokeColor="#FF2E7D32"
+        android:strokeLineCap="round"
+        android:strokeWidth="2" />
+    <!-- Строки текста -->
+    <path
+        android:pathData="M34,48 C40,46.5 46,47.5 50,50"
+        android:strokeColor="#FF2E7D32"
+        android:strokeLineCap="round"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M34,55 C40,53.5 46,54.5 50,57"
+        android:strokeColor="#FF2E7D32"
+        android:strokeLineCap="round"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M58,50 C62,47.5 68,46.5 74,48"
+        android:strokeColor="#FF2E7D32"
+        android:strokeLineCap="round"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M58,57 C62,54.5 68,53.5 74,55"
+        android:strokeColor="#FF2E7D32"
+        android:strokeLineCap="round"
+        android:strokeWidth="2" />
+    <!-- Лупа -->
+    <path
+        android:fillColor="#CC1B5E20"
+        android:pathData="M59,62a11,11 0 1,0 22,0a11,11 0 1,0 -22,0"
+        android:strokeColor="#FFFFD54F"
+        android:strokeWidth="5" />
+    <path
+        android:pathData="M76,69 L83,76"
+        android:strokeColor="#FFFFD54F"
+        android:strokeLineCap="round"
+        android:strokeWidth="5.5" />
+</vector>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Книга по ISBN</string>
+    <string name="search_title">Поиск книги</string>
+    <string name="search_subtitle">Введите ISBN — мы найдём книгу в OpenLibrary и сохраним её в вашу коллекцию.</string>
+    <string name="isbn_hint">ISBN, например 9780451524935</string>
+    <string name="search_button">Найти книгу</string>
+    <string name="searching">Ищем книгу в OpenLibrary…</string>
+    <string name="search_success">Книга найдена и сохранена</string>
+    <string name="error_isbn_empty">Введите ISBN</string>
+    <string name="error_isbn_invalid">ISBN должен содержать 10 или 13 цифр (допускается X в конце ISBN-10)</string>
+    <string name="error_book_not_found">Книга с ISBN %1$s не найдена в OpenLibrary</string>
+    <string name="error_network">Не удалось подключиться к OpenLibrary. Проверьте интернет и повторите попытку.</string>
+    <string name="error_unknown">Не удалось получить данные о книге. Попробуйте ещё раз.</string>
+    <string name="last_book_label">Последняя запрошенная книга</string>
+    <string name="last_book_details">ISBN: %1$s\nАвтор: %2$s\nГод: %3$s\nСтраниц: %4$s\nИздательство: %5$s</string>
+    <string name="fact_format">Факт: %1$s</string>
+    <string name="to_list_button">Список книг и редактирование</string>
+    <string name="list_title">Моя библиотека</string>
+    <plurals name="books_count">
+        <item quantity="one">%1$d книга сохранена</item>
+        <item quantity="few">%1$d книги сохранено</item>
+        <item quantity="many">%1$d книг сохранено</item>
+        <item quantity="other">%1$d книг сохранено</item>
+    </plurals>
+    <string name="empty_list">Пока нет сохранённых книг.\nВернитесь на экран поиска и найдите книгу по ISBN.</string>
+    <string name="book_details_short">ISBN: %1$s\nГод: %2$s · Страниц: %3$s</string>
+    <string name="unknown_title">Без названия</string>
+    <string name="unknown_author">Автор неизвестен</string>
+    <string name="unknown_year">не указан</string>
+    <string name="unknown_pages">не указано</string>
+    <string name="unknown_publisher">не указано</string>
+    <string name="back">Назад</string>
+    <string name="edit_title">Редактирование книги</string>
+    <string name="edit_subtitle">Измените данные и сохраните их — книга останется в вашей библиотеке.</string>
+    <string name="isbn_value">ISBN: %1$s</string>
+    <string name="edit_title_hint">Название</string>
+    <string name="edit_authors_hint">Автор</string>
+    <string name="edit_pages_hint">Количество страниц</string>
+    <string name="edit_fact_hint">Интересный факт</string>
+    <string name="save_changes">Сохранить изменения</string>
+    <string name="cancel">Отмена</string>
+    <string name="edit_saved">Изменения сохранены</string>
+    <string name="error_title_empty">Название не может быть пустым</string>
+    <string name="error_pages_invalid">Введите целое неотрицательное число страниц</string>
+    <string name="error_book_missing">Книга не найдена</string>
+</resources>
